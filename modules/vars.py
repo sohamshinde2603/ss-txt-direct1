@@ -3,11 +3,11 @@
 import os
 from os import environ
 
-API_ID = int(environ.get("API_ID", "26713214"))
-API_HASH = environ.get("API_HASH", "fc87c0fb26949deb0bc940dd35c1658d")
-BOT_TOKEN = environ.get("BOT_TOKEN", "")
+API_ID = int(environ.get("API_ID", "1786342431"))
+API_HASH = environ.get("API_HASH", "c78489a1b52a6dac192f2c1b6eb30435")
+BOT_TOKEN = environ.get("BOT_TOKEN", "8460163334:AAEfknfZiyb6GlLA4zSt-ujoUQjKT0kWK6Y")
 
-OWNER = int(environ.get("OWNER", "7752941299"))
+OWNER = int(environ.get("OWNER", "1786342431"))
 CREDIT = environ.get("CREDIT", '👨‍💻Rick Johnson')
 CREDIT_LINK = environ.get("CREDIT_LINK", 'https://t.me/rick007contactbot')
 cookies_file_path = os.getenv("cookies_file_path", "youtube_cookies.txt")
@@ -17,7 +17,7 @@ MONGO_URL = environ.get("MONGO_URL", "")
 DATABASE_NAME = environ.get("DATABASE_NAME", "eagle")
 
 # Owner and Admin Configuration
-OWNER_ID = int(environ.get("OWNER_ID", "7752941299"))  # Use OWNER as fallback
+OWNER_ID = int(environ.get("OWNER_ID", "1786342431"))  # Use OWNER as fallback
 ADMINS = [OWNER_ID]  # Can be extended via environment
   
 #WEBHOOK = True  # Don't change this
@@ -70,4 +70,5 @@ Please contact the admin to get access.</blockquote>""",
 
 <blockquote>Use format: {format}</blockquote>"""
 }
+
 
